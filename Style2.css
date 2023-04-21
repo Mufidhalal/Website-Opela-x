@@ -7,7 +7,7 @@ body{
   display: flex;
 }
 /*Buttonstyle*/
-.button{
+.btn{
   font-family: "Roboto", Sans-Serif;
   font-size: 18px;
   font-weight: bold;
@@ -26,7 +26,7 @@ body{
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-.button:hover, .button:focus, .button:active{
+.btn:hover, .btn:focus, .btn:active{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
